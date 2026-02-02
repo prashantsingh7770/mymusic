@@ -23,7 +23,7 @@ const App = () => {
           <DisplayAll />
         </div>
         <Player />
-        <audio ref={audioRef} src={`/src/assets/${track?.file}.mp3`} preload=''>
+        <audio ref={audioRef} src={`/assets/${track?.file}.mp3`} preload=''>
 
         </audio>
       </div>

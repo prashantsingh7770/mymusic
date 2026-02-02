@@ -1,4 +1,5 @@
 import React from 'react';
+// import { assets, songsData, albumsData } from '../../public/assets/assets';
 import { assets, songsData, albumsData } from '../assets/assets';
 import AlbumItem from './AlbumItem';
 import SongsItem from './SongsItem';

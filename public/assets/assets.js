@@ -1,76 +1,76 @@
 export const assets = {
-  bell_icon: "/assets/bell.png",
-  delete_icon: "/assets/delete.png",
-  home_icon: "/assets/home.png",
-  like_icon: "/assets/like.png",
-  loop_icon: "/assets/loop.png",
-  mic_icon: "/assets/mic.png",
-  next_icon: "/assets/next.png",
-  play_icon: "/assets/play.png",
-  plays_icon: "/assets/plays.png",
-  prev_icon: "/assets/prev.png",
-  search_icon: "/assets/search.png",
-  shuffle_icon: "/assets/shuffle.png",
-  speaker_icon: "/assets/speaker.png",
-  stack_icon: "/assets/stack.png",
-  zoom_icon: "/assets/zoom.png",
-  plus_icon: "/assets/plus.png",
-  arrow_icon: "/assets/arrow.png",
-  mini_player_icon: "/assets/mini-player.png",
-  volume_icon: "/assets/volume.png",
-  queue_icon: "/assets/queue.png",
-  pause_icon: "/assets/pause.png",
-  arrow_left: "/assets/left_arrow.png",
-  arrow_right: "/assets/right_arrow.png",
-  spotify_logo: "/assets/spotify_logo.png",
-  clock_icon: "/assets/clock_icon.png",
-  save: "/assets/save.png"
-};
+    bell_icon,
+    delete_icon,
+    home_icon,
+    like_icon,
+    loop_icon,
+    mic_icon,
+    next_icon,
+    play_icon,
+    plays_icon,
+    prev_icon,
+    search_icon,
+    shuffle_icon,
+    speaker_icon,
+    stack_icon,
+    zoom_icon,
+    plus_icon,
+    arrow_icon,
+    mini_player_icon,
+    volume_icon,
+    queue_icon,
+    pause_icon,
+    arrow_left,
+    arrow_right,
+    spotify_logo,
+    clock_icon,
+    save
+}
 
 export const albumsData = [
-  {
-    id: 0,
-    name: "Top 50 Global",
-    image: "/assets/img8.jpg",
-    desc: "Your weekly update of the most played tracks",
-    bgColor: "#2a4365"
-  },
-  {
-    id: 1,
-    name: "Top 50 India",
-    image: "/assets/img9.jpg",
-    desc: "Your weekly update of the most played tracks",
-    bgColor: "#22543d"
-  },
-  {
-    id: 2,
-    name: "Trending India",
-    image: "/assets/img10.jpg",
-    desc: "Your weekly update of the most played tracks",
-    bgColor: "#742a2a"
-  },
-  {
-    id: 3,
-    name: "Trending Global",
-    image: "/assets/img16.jpg",
-    desc: "Your weekly update of the most played tracks",
-    bgColor: "#44337a"
-  },
-  {
-    id: 4,
-    name: "Mega Hits",
-    image: "/assets/img11.jpg",
-    desc: "Your weekly update of the most played tracks",
-    bgColor: "#234e52"
-  },
-  {
-    id: 5,
-    name: "Happy Favorites",
-    image: "/assets/img15.jpg",
-    desc: "Your weekly update of the most played tracks",
-    bgColor: "#744210"
-  }
-];
+    {   
+        id:0,
+        name: "Top 50 Global",
+        image: img8,
+        desc:"Your weekly update of the most played tracks",
+        bgColor:"#2a4365"
+    },
+    {   
+        id:1,
+        name: "Top 50 India",
+        image: img9,
+        desc:"Your weekly update of the most played tracks",
+        bgColor:"#22543d"
+    },
+    {   
+        id:2,
+        name: "Trending India",
+        image: img10,
+        desc:"Your weekly update of the most played tracks",
+        bgColor:"#742a2a"
+    },
+    {   
+        id:3,
+        name: "Trending Global",
+        image: img16,
+        desc:"Your weekly update of the most played tracks",
+        bgColor:"#44337a"
+    },
+    {   
+        id:4,
+        name: "Mega Hits,",
+        image: img11,
+        desc:"Your weekly update of the most played tracks",
+        bgColor:"#234e52"
+    },
+    {   
+        id:5,
+        name: "Happy Favorites",
+        image: img15,
+        desc:"Your weekly update of the most played tracks",
+        bgColor:"#744210"
+    }
+]
 
 // export const songsData = [
 //     {

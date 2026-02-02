@@ -1,7 +1,9 @@
 import React, { useRef, useState, createContext, useEffect } from 'react'
-import { songsData } from '../assets/assets'
+// import { songsData} from '@/assets/assets.js';
+import { songsData } from "../assets/assets";
 
 export const PlayerContext = createContext();
+
 
 const PlayerContextProvider = (props) => {
     const audioRef = useRef();
@@ -95,6 +97,10 @@ const PlayerContextProvider = (props) => {
         console.log(newList)
     };
     console.log(data)
+
+    
+//    audioRef.current = new Audio(song.file);
+
     // useEffect(()=>{
     // setNewList([...newList,])
     // },[myPlaylist]);
@@ -127,7 +133,7 @@ const PlayerContextProvider = (props) => {
     return (
         <PlayerContext.Provider value={contextValue}>
             {props.children}
-            <audio ref={audioRef} src={`/src/assets/${track?.file}.mp3`} preload='' />
+            <audio ref={audioRef} src={track?.file} preload='' />
         </PlayerContext.Provider>
     );
 };

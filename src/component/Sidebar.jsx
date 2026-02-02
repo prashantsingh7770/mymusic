@@ -38,7 +38,7 @@ const Sidebar = () => {
                     </div> */}
                     <div onClick={()=>navigate('/myplaylist')} className='p-4 m-2 rounded flex items-start justify-start gap-2 pl-2 cursor-pointer'>
                         <div className='flex items-center'>
-                            <img className='w-10 rounded-[5px]' src={`/src/assets/${songsData[1].image}.jpg`} alt="" />
+                            <img className='w-10 rounded-[5px]' src={`/assets/${songsData[1].image}.jpg`} alt="" />
                         </div>
                         <div className='items-center gap-3 ml-[5px] mt-[-5px] '>
                             <p className='font-semibold'>My Playlist</p>

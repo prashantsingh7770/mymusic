@@ -12,7 +12,7 @@ const Player = () => {
        
         <div className='h-[10%] bg-black justify-between items-center mx-4 text-white flex'>
             <div className='hidden lg:flex gap-4 items-center'>
-                <img className='w-12'  src={`/src/assets/${songsData[track.id].image}.jpg`}  alt="404" />
+                <img className='w-12'  src={songsData[track.id].image}  alt="404" />
                 <div>
                     {/* <p>{songsData[1].name}</p>
                     <p>{songsData[1].desc.slice(0, 12)}</p> */}
